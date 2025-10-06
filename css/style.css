@@ -62,7 +62,9 @@
 .bg-blue-jumbo {
     background-color: #255ee9;
 }
-
+.bg-purple{
+    background-color: #7289da;
+}
 /* Classi */
 .header {
     height: 50px;
@@ -301,6 +303,9 @@ button {
 .padding-15{
     padding: 15px;
 }
+.padding-30{
+    padding: 30px;
+}
 .item-1{
     background-image: url(../img/item1.svg);
     width: 100%;
@@ -328,4 +333,8 @@ button {
 }
 .h100p{
     height: 100%;
+}
+.flex-center{
+    justify-content: center;
+    align-items: center;
 }
