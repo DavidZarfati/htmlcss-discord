@@ -4,10 +4,13 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    font-family: Helvetica;
 }
-body{
+
+body {
     background-color: #23272a;
 }
+
 /* Background Color */
 .bg-aqua {
     background-color: aqua;
@@ -98,6 +101,7 @@ body{
     justify-content: center;
     align-items: center;
 }
+
 .flex {
     display: flex;
     justify-content: center;
@@ -130,6 +134,10 @@ a {
 .py-20 {
     padding-top: 20px;
     padding-bottom: 20px;
+}
+.py-40 {
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .my-20 {
@@ -221,9 +229,10 @@ br {
 
 .border-bottom-gray {
     /* border-bottom: 1px solid lightgray; */
-    width:  800px; ;
+    width: 800px;
+    ;
     border-bottom: 1px solid #7289da;
-margin: 0 auto;
+    margin: 0 auto;
 }
 
 .cross-flex-end {
@@ -287,13 +296,16 @@ button {
 .ml-300 {
     margin-left: 300px;
 }
-.mt-20{
+
+.mt-20 {
     margin-top: 20px;
 }
-.mt-10{
+
+.mt-10 {
     margin-top: 10px;
 }
-.mt-5{
+
+.mt-5 {
     margin-top: 5px;
 }
 
@@ -305,12 +317,13 @@ button {
     /* background-color: white; */
     display: inline-block;
     border-radius: 20px;
-    padding: 12px;
+    padding: 15px;
     line-height: 5px;
+    box-shadow: 10px 10px 30px 3px rgba(0, 0, 0, 0.6);
 }
 
 .bottone-header {
-    padding: 15px;
+    padding: 20px;
 }
 
 .fa-arrow-down {
@@ -324,12 +337,16 @@ button {
 .padding-30 {
     padding: 30px;
 }
+.padding-30t {
+    padding-top: 30px;
+}
 
 .item-1 {
     background-image: url(../img/item1.svg);
     width: 100%;
     background-size: contain;
     background-repeat: no-repeat;
+    height: 300px;
 }
 
 .item-2 {
@@ -338,6 +355,7 @@ button {
     background-size: contain;
     background-repeat: no-repeat;
     /* align-self: flex-start; */
+    height: 300px;
 }
 
 .item-3 {
@@ -345,6 +363,7 @@ button {
     width: 100%;
     background-size: contain;
     background-repeat: no-repeat;
+    height: 300px;
 }
 
 .item-4 {
@@ -352,6 +371,7 @@ button {
     width: 100%;
     background-size: contain;
     background-repeat: no-repeat;
+    height: 500px;
 }
 
 .h100p {
@@ -381,6 +401,7 @@ button {
 .gap-5 {
     gap: 5px;
 }
+
 .gap-10 {
     gap: 10px;
 }
@@ -389,17 +410,34 @@ button {
     border-top: 1px solid aquamarine;
     margin-top: 10px;
 } */
- .text-sinistra{
+.text-sinistra {
     text-align: left;
- }
- .logo-footer{
+}
+
+.logo-footer {
     height: 50px;
     width: 50px;
- }
- .flex-sb{
+}
+
+.flex-sb {
     justify-content: space-between;
- }
- .bottone-footer{
+}
+
+.bottone-footer {
     line-height: 0px;
-    padding: 12px;
- }
+    padding: 15px;
+}
+
+.stelle {
+    background-image: url(../img/stars.svg);
+    /* width: 50%;
+   height: 50%; */
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.flex-start {
+    align-items: flex-start;
+    justify-content: flex-start;
+}
