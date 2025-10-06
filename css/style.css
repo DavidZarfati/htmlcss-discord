@@ -50,6 +50,7 @@
 .bg-plum {
     background-color: plum;
 }
+
 .bg-black {
     background-color: black;
 }
@@ -57,9 +58,11 @@
 .bg-aquamarine {
     background-color: aquamarine;
 }
-.bg-blue-jumbo{
+
+.bg-blue-jumbo {
     background-color: #255ee9;
 }
+
 /* Classi */
 .header {
     height: 50px;
@@ -69,10 +72,11 @@
 }
 
 .landing {
-    height: 400px;
+    /* height: 400px; */
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 150px;
 }
 
 .nav {
@@ -116,7 +120,8 @@ ul {
 li {
     margin-left: 10px;
 }
-a{
+
+a {
     color: white;
     /* text-decoration: none; */
 }
@@ -139,6 +144,7 @@ a{
 .w-600 {
     width: 600px;
 }
+
 .w-400 {
     width: 400px;
 }
@@ -146,6 +152,7 @@ a{
 .w-500 {
     width: 500px;
 }
+
 .w-300 {
     width: 300px;
 }
@@ -157,12 +164,15 @@ a{
 .h-300 {
     height: 300px;
 }
+
 .h-30 {
     height: 30px;
 }
+
 .h-500 {
     height: 500px;
 }
+
 .h-50 {
     height: 50px;
 }
@@ -170,6 +180,7 @@ a{
 .h-600 {
     height: 600px;
 }
+
 .h-800 {
     height: 800px;
 }
@@ -183,10 +194,12 @@ a{
     /* width:80px; */
     width: 40%;
 }
-.reverse{
+
+.reverse {
     flex-direction: row-reverse;
 }
-.full-w{
+
+.full-w {
     width: 100%;
 }
 
@@ -194,65 +207,86 @@ a{
     /* width:80px; */
     width: 30%;
 }
-.w-70-4{
+
+.w-70-4 {
     width: calc(70% / 4);
     border: 1px dotted white;
 }
 
-br{
+br {
     color: gray;
 }
-.footer{
+
+.footer {
     height: 50px;
 }
-.border-bottom-gray{
+
+.border-bottom-gray {
     border-bottom: 1px solid lightgray;
 }
-.cross-flex-end{
+
+.cross-flex-end {
     align-items: flex-end;
 }
-button{
+
+button {
     margin-top: 6px;
     margin-bottom: 6px;
     background-color: palevioletred;
 }
-#button-header{
+
+/* #button-header{
     margin-bottom: 0px;
     margin-top: 0px;
     background-color: pink;
-}
-.jumbo-img{
+} */
+.jumbo-img {
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
-.bianco{
+
+.bianco {
     color: white;
 }
-.nero{
+
+.nero {
     color: black;
 }
-.column{
+
+.column {
     flex-direction: column;
 }
-.mb-10p{
+
+.mb-10p {
     margin-bottom: 10%;
 }
-.mb-5p{
+
+.mb-5p {
     margin-bottom: 5%;
 }
-.mb-2p{
+
+.mb-2p {
     margin-bottom: 2%;
 }
-.text-center{
+
+.text-center {
     text-align: center;
 }
-.bottone-generico{
+
+.bottone-generico {
     /* background-color: white; */
+    display: inline-block;
     border-radius: 20px;
-    padding: 10px;
+    padding: 12px;
+    line-height: 5px;
 }
-.fa-arrow-down{
+.bottone-header{
+    padding: 15px;
+}
+
+.fa-arrow-down {
     font-size: 12px;
 }
+.
