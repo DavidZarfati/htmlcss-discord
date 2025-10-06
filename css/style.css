@@ -197,6 +197,7 @@ a {
 
 .reverse {
     flex-direction: row-reverse;
+    width: 140%;
 }
 
 .full-w {
@@ -270,7 +271,15 @@ button {
 .mb-2p {
     margin-bottom: 2%;
 }
-
+.ml-30{
+    margin-left: 30px;
+}
+.ml-100{
+    margin-left: 100px;
+}
+.ml-300{
+    margin-left: 300px;
+}
 .text-center {
     text-align: center;
 }
@@ -289,4 +298,31 @@ button {
 .fa-arrow-down {
     font-size: 12px;
 }
-.
+.padding-15{
+    padding: 15px;
+}
+.item-1{
+    background-image: url(../img/item1.svg);
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.item-2{
+    background-image: url(../img/item2.svg);
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* align-self: flex-start; */
+}
+.item-3{
+    background-image: url(../img/item3.svg);
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.item-4{
+    background-image: url(../img/item4-big.svg);
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
